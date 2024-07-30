@@ -4,7 +4,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder, PromptTemplate
 from langchain.tools import tool
 
-llm = ChatGoogleGenerativeAI(model="gemini-1.5-pro-latest", google_api_key="AIzaSyDgxQKvx1M1XM4vMObBFw7xV-dZ6rZuYck") 
+llm = ChatGoogleGenerativeAI(model="gemini-1.5-pro-latest", google_api_key="You key here") 
 
 @tool 
 def getSum(n1: int, n2: int) -> int:
